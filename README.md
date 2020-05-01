@@ -17,15 +17,19 @@ export TWILIO_ACCOUNT_SID='XXXXXXXXXXXXXXXXXXXXXXX'
 export TWILIO_AUTH_TOKEN='YYYYYYYYYYYYYYYYYY'
 export TWILIO_NUMBER='+15555555555'
 
-ngrok http  5000 # in a seperate terminal
+# run this in a in a seperate terminal
+# install instructions: https://ngrok.com/download
+ngrok http  5000
 
-export NGROK_URL=*YOUR_NGROK_URL* # Then configure your Twilio number to point to *YOUR_NGROK_URL*
+# copy your ngrok URL and export it
+# also make sure configure your Twilio number to point to *YOUR_NGROK_URL*
+export NGROK_URL=*YOUR_NGROK_URL*
 
 npm start
 
 ```
 
-Once everything is running, send a selfie via MMS to the Twilio number you configured and wait a few seconds to get your response. 
+Once everything is configured and running, send a selfie via MMS to the Twilio number you configured and wait a few seconds to get your response.
 
 All images will be saved to the `/public` directory.
 
