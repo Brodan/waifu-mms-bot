@@ -1,0 +1,25 @@
+{
+  "name": "waifu-mms-bot",
+  "version": "1.0.0",
+  "description": "A Twilio-powered MMS bot that turns your selfies into your waifu.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brodan/waifu-mms-bot.git"
+  },
+  "keywords": [
+    "twilio",
+    "waifu",
+    "mms"
+  ],
+  "author": "Brodan <christopher.hranj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brodan/waifu-mms-bot/issues"
+  },
+  "homepage": "https://github.com/Brodan/waifu-mms-bot#readme"
+}
